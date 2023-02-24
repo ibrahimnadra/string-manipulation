@@ -14,19 +14,7 @@ public class MyStringClass  {
         }
         return mutableInputString.toString();
     }
-
-//    public String reverseString(final String inputString)
-//    {
-//        StringBuilder newString = new StringBuilder("");
-//        char character;
-//
-//        for (int index = 0; index < inputString.length(); index ++)
-//        {
-//            character = inputString.charAt(index); //extracts each character
-//            newString = character + newString; //adds each character in front of the existing string
-//        }
-//        return newString;
-//    }
+    
     public int getStringLength(final String inputString)
     {
         int lengthOfString = 0;
